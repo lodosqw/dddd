@@ -8,7 +8,7 @@ const http = require("http");
 const express = require("express");
 require("./util/eventLoader")(client);
 
-client.ayarlar = { "token": "Nzc0NTI3NTk4OTM5MzQwODEw.X6ZFCQ.gz0JYc4SKnffbz-5s_uQGm_fyK4", "prefix": "!", "sahip": "384683153769496586" }//Narcos Code tarafından türkçe çevrildi
+client.ayarlar = { "token": ""ODA2OTYzMzAwMDg4NTQ1MzIx.YBxFIw.x1pSdL1bJIAdM0S-A_iqfWyM09A", "prefix": "!", "sahip": "384683153769496586" }//Narcos Code tarafından türkçe çevrildi
 
 const app = express();
 app.get("/", (request, response) => {
